@@ -41,6 +41,7 @@ background-image: linear-gradient(rgba(0,0,0,0.5)rgba(0,0,0,0.5)) url('../images
 }
 .donate-paragraph{
     text-align: center;
+    font-size: 18px;
 }
 
 
@@ -51,31 +52,40 @@ background-image: linear-gradient(rgba(0,0,0,0.5)rgba(0,0,0,0.5)) url('../images
     border: 2px solid orangered;
     color: orangered;
     background-color: pink;
-    padding: 30px 20px;
+    padding: 20px 10px;
+    margin-bottom: 50px;
 
 }
-.money-part1,
+ .money-part1,
 .money-part3,
 .money-part4,
 .money-part5{
-    padding: 50px 50px;
-}
+    padding: 10px 20px;
+} 
+
+
 .amount{
-    /* margin-top: 3.5rem;
+     margin-top: 3.5rem;
     text-align: center;
     font-size: 25px;
     color: grey;
     opacity: 10px;
-    justify-content: center; */
-    display: flex !important;
+    justify-content: center; 
+     display: flex;
+
+    
+    
+
 }
 .doted{
     text-align: center;
     text-decoration: underline;
 }
+
+
 .text-file{
     text-align: center;
-    margin-left: 52rem;
+    margin-left: 39rem;
     border: none;
     font-size: 25px;
 }
@@ -100,13 +110,19 @@ background-image: linear-gradient(rgba(0,0,0,0.5)rgba(0,0,0,0.5)) url('../images
     text-align: center;
     width: 50%;
     margin-left: 25%;
-    margin-top: 3.4rem;
+    margin-top: 3.5rem;
+  } 
+    
 
-
-}
 .sector{
     display: flex;
     justify-content: center;
+    width: 70%;
+    margin-top: 5rem;
+    margin-left: 15%;
+    justify-content: space-between;
+    gap: 1.5rem;
+    margin-bottom: 4rem;
 }
 .sector-3{
     width: 320px;
@@ -125,4 +141,18 @@ background-image: linear-gradient(rgba(0,0,0,0.5)rgba(0,0,0,0.5)) url('../images
     padding: 40px 17px;
     background: #FFF4D6;;
     border-radius: 5px;
+}
+
+
+.contribution-part{
+    margin-top: 5rem;
+    display: flex;
+    gap: 9rem;
+    width: 85%;
+    padding-left:7%;
+}
+.part-1{
+    margin-top: 5rem;
+  text-align: justify;
+  
 }
