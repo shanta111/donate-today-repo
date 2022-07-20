@@ -1,0 +1,128 @@
+*{
+  padding: 0%;
+  margin: 0%;  
+  box-sizing: 0;
+  font-family: "Lato",sans-serif;
+  font-family: "poppins" sans-serif;
+}
+
+
+.top-banner{
+    margin-bottom: 10rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15.8rem;
+
+
+
+color: white;
+text-align: center;
+
+background-image: linear-gradient(rgba(0,0,0,0.5)rgba(0,0,0,0.5)) url('../images/donation13.jpg');
+ background-image: url('../images/donation13.jpg')
+
+
+}
+.heading-part{
+    font-size: 25px;
+
+}
+
+.donate-tk{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+
+    font-size: 30px;
+    color: gray;
+    font-weight: bold;
+}
+.donate-paragraph{
+    text-align: center;
+}
+
+
+
+
+
+.money-part2{
+    border: 2px solid orangered;
+    color: orangered;
+    background-color: pink;
+    padding: 30px 20px;
+
+}
+.money-part1,
+.money-part3,
+.money-part4,
+.money-part5{
+    padding: 50px 50px;
+}
+.amount{
+    /* margin-top: 3.5rem;
+    text-align: center;
+    font-size: 25px;
+    color: grey;
+    opacity: 10px;
+    justify-content: center; */
+    display: flex !important;
+}
+.doted{
+    text-align: center;
+    text-decoration: underline;
+}
+.text-file{
+    text-align: center;
+    margin-left: 52rem;
+    border: none;
+    font-size: 25px;
+}
+.button-link{
+    text-align: center;
+    margin-top: 3.6rem;
+    margin-bottom: 4rem;
+}
+.button-link a { 
+
+    text-decoration: none;
+    color: white;
+    background-color: crimson;
+    padding: 15px 45px;
+}
+.donate-plan{
+    text-align: center;
+    font-size: 40px;
+
+}
+.planning-text{
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 3.4rem;
+
+
+}
+.sector{
+    display: flex;
+    justify-content: center;
+}
+.sector-3{
+    width: 320px;
+    padding: 40px 17px;
+    background : #eebdcd
+}
+.sector-1{
+    width: 320px;
+    padding: 40px 17px;
+    background:  rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+
+}
+.sector-2{
+    width: 320px;
+    padding: 40px 17px;
+    background: #FFF4D6;;
+    border-radius: 5px;
+}
