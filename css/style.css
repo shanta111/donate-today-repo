@@ -6,7 +6,7 @@
   font-family: "poppins" sans-serif;
 }
 
-
+/* banner part start */
 .top-banner{
     margin-bottom: 10rem;
     background-repeat: no-repeat;
@@ -23,9 +23,15 @@ background-image: linear-gradient(rgba(0,0,0,0.5)rgba(0,0,0,0.5)) url('../images
 
 
 }
+
+
+
 .heading-part{
     font-size: 25px;
 
+}
+.paragraph-part{
+  font-size: 15px;
 }
 
 .donate-tk{
@@ -43,10 +49,18 @@ background-image: linear-gradient(rgba(0,0,0,0.5)rgba(0,0,0,0.5)) url('../images
     text-align: center;
     font-size: 18px;
 }
+ .btn{
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  background-color: crimson;
+  padding: 10px 20px;
+  border-radius: 5px ;
+ }
 
+/* banner part work end */
 
-
-
+/* money part work start */
 
 .money-part2{
     border: 2px solid orangered;
@@ -101,6 +115,9 @@ background-image: linear-gradient(rgba(0,0,0,0.5)rgba(0,0,0,0.5)) url('../images
     background-color: crimson;
     padding: 15px 45px;
 }
+/* money part end */
+
+/* last donate part start  */
 .donate-plan{
     text-align: center;
     font-size: 40px;
@@ -144,15 +161,130 @@ background-image: linear-gradient(rgba(0,0,0,0.5)rgba(0,0,0,0.5)) url('../images
 }
 
 
-.contribution-part{
+/* last donate part work end */
+
+/* description part work start */
+.part-1{
     margin-top: 5rem;
     display: flex;
     gap: 9rem;
     width: 85%;
     padding-left:7%;
-}
-.part-1{
-    margin-top: 5rem;
-  text-align: justify;
+  }
   
-}
+  .section-1{
+    margin-top: 10rem;
+    text-align: justify;
+    
+  }
+  .section-1 a{
+    text-decoration: none;
+    background-color: brown;
+    padding: 15px 25px;
+    color: white;
+  
+  }
+  
+  .part-2{
+    margin-top: 5rem;
+    display: flex;
+    gap: 9rem;
+    width: 50%;
+    padding-left:7%;
+  }
+  
+  .section-3 {
+    margin-top: 5rem;
+    text-align: justify;
+  
+  }
+  
+  .section-3 a{
+    text-decoration: none;
+    background-color: brown;
+    padding: 15px 25px;
+    color: white;
+  
+  }
+  
+ 
+  .part-3{
+    margin-top: 6.5rem;
+    display: flex;
+    gap: 9rem;
+    width: 50%;
+    
+    padding-left:7%;
+    margin-bottom: 7rem;
+  }
+  
+
+  .section-5 {
+    margin-top: 10rem;
+    text-align: justify;
+  }
+  
+  .section-5 a{
+    text-decoration: none;
+    background-color: brown;
+    padding: 15px 25px;
+    color: white;
+  
+  }
+  
+  /* description part work end */
+  
+  .updates{
+    text-align: center;
+    font-size: 45px;
+  }
+  
+  /* from part start */
+  form{
+    
+    text-align: center;
+    background-color:antiquewhite;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    padding: 80px 160px;
+  }
+
+  
+  /* mail part work start */
+  .email-section{
+    background-color:rgb(233, 241, 241);
+    font-weight: 400;
+    border: none;
+    padding: 10px 20px ;
+  }
+  /* mail part work end */
+
+
+  /* subscription work part start */
+  .subscribe-section{
+    background-color:tomato;
+    font-weight: 400;
+    border: none;
+    padding: 10px 20px ;
+    margin-left: -3.5px;
+  }
+  /* from part end */
+  
+  
+ 
+  
+ /* footer part work start */
+  footer{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding: 100px 40px;
+  }
+  footer h1{
+    color: coral;
+    font-size: 40px;
+    font-family:caviet;
+  }
+  /* footer part end */
